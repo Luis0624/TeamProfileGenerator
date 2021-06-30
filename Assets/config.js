@@ -1,4 +1,4 @@
-const password = "Phosphate-12"; 
+const password = "Phosphate_12"; 
 const username = "root";
 
 module.exports = { password, username };

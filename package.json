@@ -1,0 +1,25 @@
+{
+  "name": "TeamProfileGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luis0624/TeamProfileGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2",
+    "mysql": "^2.18.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Luis0624/TeamProfileGenerator/issues"
+  },
+  "homepage": "https://github.com/Luis0624/TeamProfileGenerator#readme"
+}

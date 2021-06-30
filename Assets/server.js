@@ -53,3 +53,66 @@ const connection = mysql.createConnection({
 
     });
 };
+
+const addDepartment = () => {
+    inquirer
+        .prompt({
+            name: 'department',
+            input: 'input',
+            message: "Enter new department's name."
+        }
+    ).then
+}
+
+
+const addRole = () => {
+    inquirer
+        .prompt(
+            [
+                {
+                name: 'roleTitle',
+                input: 'input',
+                message: "Enter new role."
+                },
+                {
+                name: 'roleSalary',
+                input: 'input',
+                message: "Enter new salary."
+                },
+                {
+                name: 'roleDepartment',
+                input: 'input',
+                message: "Enter department ID."
+                },
+            ]
+        ).then
+}
+
+const addEmployee = () => {
+    inquirer
+        .prompt(
+            [
+              {
+                name: 'firstName',
+                input: 'input',
+                message: "Enter new employee's first name."
+              },
+              {
+              name: 'lastName',
+              input: 'input',
+              message: "Enter new employee's last name."
+              },
+              {
+                name: 'roleID',
+                input: 'input',
+                message: "Enter new employee's ID number."
+              },
+              {
+                name: 'managerID',
+                input: 'input',
+                message: "Enter the manager ID of the new employee."
+              },
+        ]
+    ).then
+
+}

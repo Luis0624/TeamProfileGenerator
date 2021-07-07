@@ -37,15 +37,15 @@ Demo image for cloning github repo
 [Github Project Repo for the employee tracker generator](https://github.com/Luis0624/employee-tracker-app)
 
 Sample Images of working App
-![Working Demo Picture ](assets/images/DemoViewing.png)
+![Working Demo Picture ](Assets/images/DemoViewing.png)
 
 
 
-![Working Demo Picture ](assets/images/DemoViewingAll.png)
+![Working Demo Picture ](Assets/images/DemoViewingAll.png)
 
 
 
-![Working Demo Picture ](assets/images/DemoAdding.png)
+![Working Demo Picture ](Assets/images/DemoAdding.png)
 
 
 ### USAGE
